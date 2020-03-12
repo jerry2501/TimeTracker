@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:orientation="vertical"
+    android:background="@drawable/bghdpi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".usageStates">
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="206dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="80dp"
+        android:text="WhatsApp"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:textSize="20dp" />
+        <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="WhatsApps timer:"
+            android:fontFamily="@font/hpsimplified265"
+            android:textColor="#000"
+        android:id="@+id/whatsapp_t"
+        android:textSize="20dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="80dp"
+        android:text="Facebook"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Facebook time"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:id="@+id/facebook_time"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="80dp"
+        android:text="Instagram"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Instagram timer"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:id="@+id/instagram_time"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="80dp"
+        android:text="SnapChat"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Snapchat timer"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:id="@+id/snapchat_time"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="80dp"
+        android:text="Youtube"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Youtube timer"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:id="@+id/youtube_time"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="80dp"
+        android:text="PUBG"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="PUBG timer"
+        android:fontFamily="@font/hpsimplified265"
+        android:textColor="#000"
+        android:id="@+id/pubg_time"
+        android:textSize="20dp"
+        />
+
+
+
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
